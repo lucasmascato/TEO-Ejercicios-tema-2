@@ -1,0 +1,7 @@
+def es_bisiesto(año: int)-> bool:
+    if año % 400 == 0:
+        return True
+    elif año % 4 == 0 and año % 100 != 0:
+        return True
+    else:
+        return False
